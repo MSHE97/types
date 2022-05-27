@@ -27,7 +27,7 @@ var LocalCard = Card{
 	Balance:  9000_00,
 	Currency: Dollars,
 	Type:     Gold,
-	Activity: Active,
+	Activity: Onn,
 	cvv:      112,
 }
 
@@ -45,6 +45,6 @@ const (
 )
 
 const (
-	Active   = true
-	InActive = false
+	Onn = true
+	Off = false
 )
